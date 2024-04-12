@@ -1,0 +1,28 @@
+:root {
+  --callapse-title-fontsize: 14px;
+  --callapse-title-color: #666;
+  --callapse-content-fontsize: 14px;
+  --callapse-content-color: #666;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.lf-dndpanel {
+  width: 210px;
+}
+
+.collapse-container {
+  display: flex;
+  justify-content: space-around;
+}

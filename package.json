@@ -1,0 +1,17 @@
+{
+  "name": "sample-logic-flow",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev --parallel"
+  },
+  "dependencies": {
+    "@logicflow/core": "^1.2.26",
+    "@logicflow/extension": "^1.2.26"
+  },
+  "devDependencies": {
+    "@lerna-lite/run": "^3.3.2",
+    "lerna": "^8.1.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8"
+  }
+}
