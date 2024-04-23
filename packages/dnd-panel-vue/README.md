@@ -1,12 +1,12 @@
 # LogicFlow 自定义可分组拖拽面板
 
-![封面](https://picgo-2022.oss-cn-beijing.aliyuncs.com/202402291450108.png)
+![202402291450108](https://github.com/OSpoon/simple-logic-flow/assets/10126623/759751b9-3152-42e6-9d20-d65e29638ffa)
 
 近期有小伙伴在使用 **Logic-Flow** 流程图编辑框架的时候, 对于如何实现自定义可分组拖拽面板没有找到思路, 在简单沟通过后, 我觉得可以提供一个简单的示例来帮助大家快速了解;
 
 ## 效果展示
 
-![效果展示](https://picgo-2022.oss-cn-beijing.aliyuncs.com/202402291435483.png)
+![202402291435483](https://github.com/OSpoon/simple-logic-flow/assets/10126623/9baa52fd-4869-4253-b299-7446f7ae7796)
 
 ## 涉及内容点
 
@@ -177,7 +177,7 @@ lf.extension.dndPanel.setPatternItems([
 
 重新预览效果, 可以看到内置拖拽面板已经生效;
 
-![dnd-panel](https://picgo-2022.oss-cn-beijing.aliyuncs.com/202402291104775.png)
+![202402291104775](https://github.com/OSpoon/simple-logic-flow/assets/10126623/2dad1521-65c3-4b64-a3fb-02eb9caa538b)
 
 ## 自定义可分组拖拽面板
 
@@ -266,7 +266,7 @@ render(_lf: LogicFlow, domContainer: HTMLElement) {
 }
 ```
 
-![DOM结构图](https://picgo-2022.oss-cn-beijing.aliyuncs.com/202402291430934.png)
+![202402291430934](https://github.com/OSpoon/simple-logic-flow/assets/10126623/a5766e69-602a-4a11-aaf7-06f7ff267677)
 
 当然还要 `setPatternItems` 方法的数据结构变更后还有更新其数据;
 
@@ -315,7 +315,7 @@ render(_lf: LogicFlow, domContainer: HTMLElement) {
 
 最终的预览效果如下:
 
-![自定义可分组拖拽面板](https://picgo-2022.oss-cn-beijing.aliyuncs.com/202402291158586.png)
+![202402291158586](https://github.com/OSpoon/simple-logic-flow/assets/10126623/31ff9800-30e3-407d-8257-cdecdfefe9c1)
 
 ## 总结
 
